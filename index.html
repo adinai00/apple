@@ -172,13 +172,43 @@
     <section id="image">
       <div class="image">
         <div class="container">
-          <div class="images">
+          <div class="box">
+            <swiper-container
+              class="mySwiper"
+              effect="coverflow"
+              grab-cursor="true"
+              centered-slides="true"
+              slides-per-view="auto"
+              coverflow-effect-rotate="50"
+              coverflow-effect-stretch="0"
+              coverflow-effect-depth="100"
+              coverflow-effect-modifier="1"
+              coverflow-effect-slide-shadows="true"
+            >
+              <swiper-slide>
+                <img src="./ghosted.png" alt="" />
+              </swiper-slide>
+              <swiper-slide>
+                <img src="./slider-2.jpeg" alt="" />
+              </swiper-slide>
+              <swiper-slide>
+                <img src="./slider-3.jpeg" alt="" />
+              </swiper-slide>
+              <swiper-slide>
+                <img src="./slider-4.jpeg" alt="" />
+              </swiper-slide>
+              <swiper-slide>
+                <img src="./slider-5.jpeg" alt="" />
+              </swiper-slide>
+            </swiper-container>
+          </div>
+          <!-- <div class="images">
             <img src="./ghosted.png" alt="" />
             <img src="./slider-2.jpeg" alt="" />
             <img src="./slider-3.jpeg" alt="" />
             <img src="./slider-4.jpeg" alt="" />
             <img src="./slider-5.jpeg" alt="" />
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -405,5 +435,8 @@
         </div>
       </div>
     </footer>
+
+    <!-- SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
   </body>
 </html>
