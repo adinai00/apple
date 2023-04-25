@@ -1,0 +1,528 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+body{
+    font-family: sans-serif;
+    
+}
+#header{
+    background: rgba(22, 22, 23, 0.8);
+    padding: 17px;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(9px);
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    
+    
+
+}  
+.menu a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.title-text{
+ padding-top: 55px;   
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+.text a{
+    text-decoration: none;
+    color: #0066CC  ;
+    margin-left: 10px;
+}
+
+#hero{
+    background: url(./hero-bg.png) black no-repeat center/contain;
+    height: 550px;
+
+}
+.hero-text h1{
+    text-align: center;
+    font-size: 51px;
+    padding-top: 55px;
+    color: #F5F5F7
+}
+.hero-text h3{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 5px;
+   
+    color: #F5F5F7
+}
+.link{
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    padding-top: 25px;
+    
+}
+
+.link a {
+    text-decoration: none;
+    color: #2997FF;
+    font-size: 19px;
+}
+
+#heros{
+    background: url(./iphone-14.png) white no-repeat center/contain;
+    height: 550px;   
+}
+
+.heros-text h1{
+    text-align: center;
+    font-size: 52px;
+    padding-top: 55px;
+
+    color: #1D1D1F;
+}
+.heros-text h3{
+        text-align: center;
+        font-size: 26px;
+        padding-top: 5px;
+       
+        color: #1D1D1F;
+}
+
+#watch{
+    background: url(./apple-watch.png) black no-repeat center/contain;
+    height: 650px;
+    margin-top: 12px;
+
+}
+.watch-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+    gap: 10px;
+
+}
+.watch-text h1{
+    font-size: 60px;
+    color: #F5F5F7;
+    padding-top: 7px;
+}
+.watch-text img{
+    width: 55px;
+    height: 65px;
+   
+}
+.watchs h2{
+    color: rgb(232, 14, 14);
+    text-align: center;
+    padding-top: 20px;
+}
+.watchs p{
+    text-align: center;
+    color: #F5F5F7;
+    font-size: 25px;
+    padding-top: 5px;
+}
+.cards{
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.first-cards {
+    display: flex;
+    align-items:center;
+    gap: 12px;
+    margin-top: 12px;
+}
+.card-1{
+    background: url(./trade-in.png) no-repeat center/cover;
+    width: 100%;
+    height: 500px;
+}
+.card-2{
+    background: url(./figure.unit-image.png) no-repeat center/cover;
+    width: 100%;
+    height: 500px;
+}
+.card-3{
+    background: url(./iPad.png) no-repeat center/cover;
+    width: 100%;
+    height: 500px;
+}
+.card-4{
+    background: url(./mackbook.png) no-repeat center/cover;
+    width: 100%;
+    height: 500px;
+}
+.card-5{
+    background: url(./apple-products.png) no-repeat center/cover;
+    width: 100%;
+    height: 500px;
+}
+.card-6{
+    background: url(./iCard.png) no-repeat center/cover;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+    
+    
+}
+.card-title h2{
+    font-size: 36px;
+    margin-top: 10px;
+    
+}
+.card-title img{
+    width: 30px;
+    height: 40px;
+    margin-top: 8px;
+   
+}
+
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    /* margin-bottom: 400px; */
+
+}
+.card-text p{
+    font-size: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+   
+}
+.card-text a{
+    color: #0066CC;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.card-title2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 350px;
+}
+.card-title2 h2{
+    font-size: 36px;
+}
+.card-text2 img{
+    width: 30px;
+    height: 40px;
+    
+}
+.card-text2 p{
+    font-size: 19px;
+    
+    text-align: center;
+   
+}
+.card-text2 a{
+    color: #0066CC;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.card-text3 h2{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 53px;
+   
+}
+.card-text3 p{
+    font-size: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+   
+}
+.card-text3 a{
+    color: #0066CC;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.card-text2 h2{
+    color: #F5F5F7;
+   
+    
+}
+.card-text2 p{
+    color: #F5F5F7;
+    text-align: center;
+}
+
+.card-text20 h2{
+    font-size: 36px;
+    color: #F5F5F7;
+    text-align: center;
+    margin-top: 53px;
+
+
+}
+.card-text20 p{
+    color: #F5F5F7;
+    
+}
+.card-text20 p{
+    font-size: 19px;
+    text-align: center;
+   
+}
+.card-text20 a{
+    color: #0066CC;
+    text-decoration: none;
+    /* display: flex;
+    justify-content: center; */
+}
+.linkk{
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    
+
+    margin-top: 10px;
+}
+
+.card-text5 p{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 53px;
+ 
+}
+.card-text5 span{
+    background: greenyellow;
+    
+}
+.card-text5 a{
+    color: #0066CC;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.card-title6 {
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+
+}
+.card-title6 h2{
+    font-size: 36px;
+    margin-bottom: 9px;
+}
+.card-title6 img{
+    width: 30px;
+    height: 40px;
+   
+
+}
+.card-text6 p{
+    font-size: 17px;
+    text-align: center;
+
+}
+.card-text6 a{
+    text-decoration: none;
+    color: #0066CC;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+#footer{
+    background: #F5F5F7;
+    margin-top: 20px;
+    
+}
+
+.footers{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.footer-text p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #6E6E73;
+   
+    padding-top: 14px;
+    
+
+   
+   
+}
+
+
+/* .footer-text p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #6E6E73;
+   
+    
+} */
+.footer-text a{
+    
+    color: #424245;
+}
+.tt{
+    margin-bottom: 21px;
+}
+.footer-text {
+    border-bottom: 1px solid #6E6E73;
+    
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.footer-subtitle{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.footer-links1 h1{
+    font-size: 12px;
+    font-weight: 700;
+    color: #1D1D1F;
+    margin-top: 21px;
+    
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.footer-nav a{
+    font-size: 12px;
+    font-weight: 400;
+    color: #6E6E73;
+    text-decoration: none;
+    margin-top: 9px;
+}
+
+.footer-sub{
+    display: flex;
+    gap: 30px;
+    margin-top: 35px;
+    width: 80%;
+    /* padding-left: 128px; */
+    margin-left: 130px;
+    border-bottom: 1px solid #6E6E73;
+    
+}
+
+.footer-sub p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #6E6E73;
+    margin-bottom: 10px;
+   
+
+}
+
+
+.footer-end{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #6E6E73;
+
+    
+
+    
+}
+.footer-line{
+    display: flex;
+    gap: 50px;
+    margin-right: 20px;
+}
+.ends{
+    display: flex;
+    gap: 12px;
+}
+
+    
+
+.line{
+    border-right: 1px solid #6E6E73;
+    padding-right: 12px;
+}
+.ends a{
+    text-decoration: none;
+    color: #6E6E73;
+    
+    
+    
+}
+.end a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: #6E6E73;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
